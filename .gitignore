@@ -1,0 +1,90 @@
+#
+# N.B.
+# This is the toplevel .gitignore file.  
+# This is not the place for entries that are specific to 
+# a subdirectory.  Instead add those files to the 
+# .gitignore file in that subdirectory.
+#
+# N.B. 
+# Please use 'git ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+
+#
+# Normal rules
+#
+.deps
+.depend
+.DS_Store
+.*.cmd
+.*.d
+.*.flags
+.tmp_versions
+.Xrefs
+*~
+*.a
+*.dSYM
+*.i
+*.ko
+*.mod.c
+*.o
+*.orig
+*.rej
+*.s
+*.so
+*.swp
+*.unsigned
+00[0-9][0-9]-*.patch
+autoMakefile
+autoMakefile.in
+config.guess
+config.log
+config.status
+config.sub
+configure
+depcomp
+install-sh
+Makefile
+missing
+modules.order
+TAGS
+
+#
+# Top level generated files specific to this top level dir
+#
+/.mergeinfo-*
+/.pc
+/.Xrefs-2.5
+/acl.size
+/aclocal.m4
+/autom4te-2.53.cache
+/autom4te.cache
+/COMMIT_EDITMSG.*
+/compile
+/config.cache
+/config.h
+/config.h.in
+/INSTALL
+/lustre.spec
+/lustre*.tar.gz
+/mkinstalldirs
+/Module.markers
+/Module.symvers
+/Module.symvers.old
+/Modules.symvers
+/patches
+/Rules
+/series
+/stamp-h1
+
+#
+# Top level generic files
+#
+!.gitignore
+tags
+
+# cscope files
+cscope.*
+
+# doxygen files
+doxygen.*
